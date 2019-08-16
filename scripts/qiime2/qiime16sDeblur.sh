@@ -2,28 +2,26 @@
 #*****************************************************************************
 # Script that will execute common qiime2 commands to import paired-end reads,
 # join, filter, and denoise using deblur. No metadata is required for this
-# script. A manifest file must first be created.
+# script. A manifest file must first be created. 
 #
 # The next three lines are the input variables you should modify:
-#  * ROOT - is the directory where all output artifacts are saved. To start,
+#  * ROOT - is the directory where all output artifacts are saved. To start, 
 #           ROOT dir should include the manifest file as well as this script.
-#  * PREFIX - is the name for the analysis/samples that gets prepended to
+#  * PREFIX - is the name for the analysis/samples that gets prepended to 
 #             each output artifact
-#  * MANIFEST - the filename of the manifest text file in the ROOT dir. The
-#               manifest can point to reads saved in a directory outside ROOT.
+#  * MANIFEST - the filename of the manifest text file in the ROOT dir
 #*****************************************************************************
-ROOT=/home/ejgarza/Qiime/Analysis
-PREFIX=corpusChristi
-MANIFEST=corpusChristiManifest.txt
+ROOT=/home/eegarza/Qiime
+PREFIX=bigHorn
+MANIFEST=bigHornManifest.txt
 
 date | awk '{print $2" "$3" "$4}'
 module load bio/qiime2/2019.4
 
-echo "Importing reads using QIIME2"
-INPUT="$ROOT/corpusChristiManifest.txt"
-OUTPUT="$ROOT/corpusChristiDemux.qza"
+echo "Importing using QIIME2"
+INPUT="$ROOT/$MANIFEST"
+OUTPUT="$ROOT/${PREFIX}Demux.qza"
 INPUTFORMAT="PairedEndFastqManifestPhred33V2"
-
 qiime tools import \
   --type 'SampleData[PairedEndSequencesWithQuality]' \
   --input-path $INPUT \
@@ -36,7 +34,7 @@ OUTPUT=$(echo $OUTPUT | sed 's/.qza$/Joined.qza/g')
 qiime vsearch join-pairs \
   --i-demultiplexed-seqs $INPUT \
   --o-joined-sequences $OUTPUT
- 
+
 echo "Filtering"
 INPUT=$OUTPUT
 OUTPUT=$(echo $OUTPUT | sed 's/.qza$/Filtered.qza/g')

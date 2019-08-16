@@ -1,0 +1,23 @@
+==> /nobackup/eegarza/metagenome-paper/assembly/megahit/SRR1976948/log <==
+--- [STAT] 186938 contigs, total 182931619 bp, min 200 bp, max 326139 bp, avg 979 bp, N50 1558 bp
+--- [Thu Aug  1 10:05:47 2019] ALL DONE. Time elapsed: 40364.430021 seconds ---
+
+==> /nobackup/eegarza/metagenome-paper/assembly/megahit/SRR1977249/log <==
+--- [STAT] 152529 contigs, total 146268561 bp, min 200 bp, max 325701 bp, avg 959 bp, N50 1475 bp
+--- [Thu Aug  1 06:25:07 2019] ALL DONE. Time elapsed: 27125.499584 seconds ---
+
+==> /nobackup/eegarza/metagenome-paper/assembly/megahit/SRR1977296/log <==
+--- [STAT] 13543 contigs, total 13579872 bp, min 200 bp, max 244529 bp, avg 1003 bp, N50 1925 bp
+--- [Thu Aug  1 01:19:28 2019] ALL DONE. Time elapsed: 8787.078288 seconds ---
+
+==> /nobackup/eegarza/metagenome-paper/assembly/megahit/SRR1977304/log <==
+--- [STAT] 25811 contigs, total 29170108 bp, min 200 bp, max 301602 bp, avg 1130 bp, N50 3241 bp
+--- [Thu Aug  1 03:37:20 2019] ALL DONE. Time elapsed: 17059.050915 seconds ---
+
+==> /nobackup/eegarza/metagenome-paper/assembly/megahit/SRR1977357/log <==
+--- [STAT] 34427 contigs, total 42884515 bp, min 200 bp, max 364761 bp, avg 1246 bp, N50 4845 bp
+--- [Thu Aug  1 00:29:40 2019] ALL DONE. Time elapsed: 5798.471295 seconds ---
+
+==> /nobackup/eegarza/metagenome-paper/assembly/megahit/SRR1977365/log <==
+--- [STAT] 45454 contigs, total 54622966 bp, min 200 bp, max 218886 bp, avg 1202 bp, N50 2510 bp
+--- [Thu Aug  1 00:51:31 2019] ALL DONE. Time elapsed: 7106.928129 seconds ---

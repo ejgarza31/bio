@@ -1,0 +1,43 @@
+62.894Gb memory in total.
+Using: 56.604Gb.
+MEGAHIT v1.1.2
+--- [Wed Jul 31 22:53:01 2019] Start assembly. Number of CPU threads 16 ---
+--- [Wed Jul 31 22:53:01 2019] Available memory: 67531714560, used: 60778543104
+--- [Wed Jul 31 22:53:01 2019] Converting reads to binaries ---
+b'    [read_lib_functions-inl.h  : 209]     Lib 0 (/nobackup/eegarza/metagenome-paper/filtered/SRR1977296/SRR1977296.forward.paired.fastq,/nobackup/eegarza/metagenome-paper/filtered/SRR1977296/SRR1977296.reverse.paired.fastq): pe, 100180954 reads, 151 max length'
+b'    [utils.h                   : 126]     Real: 356.5887\tuser: 93.8625\tsys: 8.8265\tmaxrss: 152604'
+--- [Wed Jul 31 22:58:58 2019] k list: 21,29,39,59,79,99,119,141 ---
+--- [Wed Jul 31 22:58:58 2019] Extracting solid (k+1)-mers for k = 21 ---
+--- [Wed Jul 31 23:17:12 2019] Building graph for k = 21 ---
+--- [Thu Aug  1 00:20:00 2019] Assembling contigs from SdBG for k = 21 ---
+--- [Thu Aug  1 00:31:09 2019] Local assembling k = 21 ---
+--- [Thu Aug  1 00:33:49 2019] Extracting iterative edges from k = 21 to 29 ---
+--- [Thu Aug  1 00:40:22 2019] Building graph for k = 29 ---
+--- [Thu Aug  1 00:41:44 2019] Assembling contigs from SdBG for k = 29 ---
+--- [Thu Aug  1 00:43:29 2019] Local assembling k = 29 ---
+--- [Thu Aug  1 00:46:10 2019] Extracting iterative edges from k = 29 to 39 ---
+--- [Thu Aug  1 00:50:25 2019] Building graph for k = 39 ---
+--- [Thu Aug  1 00:50:44 2019] Assembling contigs from SdBG for k = 39 ---
+--- [Thu Aug  1 00:51:51 2019] Local assembling k = 39 ---
+--- [Thu Aug  1 00:54:05 2019] Extracting iterative edges from k = 39 to 59 ---
+--- [Thu Aug  1 00:57:57 2019] Building graph for k = 59 ---
+--- [Thu Aug  1 01:00:10 2019] Assembling contigs from SdBG for k = 59 ---
+--- [Thu Aug  1 01:00:46 2019] Local assembling k = 59 ---
+--- [Thu Aug  1 01:02:58 2019] Extracting iterative edges from k = 59 to 79 ---
+--- [Thu Aug  1 01:05:51 2019] Building graph for k = 79 ---
+--- [Thu Aug  1 01:05:58 2019] Assembling contigs from SdBG for k = 79 ---
+--- [Thu Aug  1 01:06:19 2019] Local assembling k = 79 ---
+--- [Thu Aug  1 01:08:51 2019] Extracting iterative edges from k = 79 to 99 ---
+--- [Thu Aug  1 01:10:54 2019] Building graph for k = 99 ---
+--- [Thu Aug  1 01:11:03 2019] Assembling contigs from SdBG for k = 99 ---
+--- [Thu Aug  1 01:11:12 2019] Local assembling k = 99 ---
+--- [Thu Aug  1 01:13:35 2019] Extracting iterative edges from k = 99 to 119 ---
+--- [Thu Aug  1 01:14:56 2019] Building graph for k = 119 ---
+--- [Thu Aug  1 01:15:14 2019] Assembling contigs from SdBG for k = 119 ---
+--- [Thu Aug  1 01:15:22 2019] Local assembling k = 119 ---
+--- [Thu Aug  1 01:17:41 2019] Extracting iterative edges from k = 119 to 141 ---
+--- [Thu Aug  1 01:18:27 2019] Building graph for k = 141 ---
+--- [Thu Aug  1 01:19:09 2019] Assembling contigs from SdBG for k = 141 ---
+--- [Thu Aug  1 01:19:19 2019] Merging to output final contigs ---
+--- [STAT] 13543 contigs, total 13579872 bp, min 200 bp, max 244529 bp, avg 1003 bp, N50 1925 bp
+--- [Thu Aug  1 01:19:28 2019] ALL DONE. Time elapsed: 8787.078288 seconds ---

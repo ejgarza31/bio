@@ -1,0 +1,55 @@
+
+running SRR1977357
+TrimmomaticPE: Started with arguments:
+ -threads 16 -phred33 -trimlog /nobackup/eegarza/metagenome-paper/logs/SRR1977357.trimmomaticLog /nobackup/eegarza/metagenome-paper/trimmed/SRR1977357/SRR1977357.1.trimmed.fastq /nobackup/eegarza/metagenome-paper/trimmed/SRR1977357/SRR1977357.2.trimmed.fastq /nobackup/eegarza/metagenome-paper/filtered/SRR1977357/SRR1977357.forward.paired.fastq /nobackup/eegarza/metagenome-paper/filtered/SRR1977357/SRR1977357.forward.unpaired.fastq /nobackup/eegarza/metagenome-paper/filtered/SRR1977357/SRR1977357.reverse.paired.fastq /nobackup/eegarza/metagenome-paper/filtered/SRR1977357/SRR1977357.reverse.unpaired.fastq LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:6
+Input Read Pairs: 62926836 Both Surviving: 60881931 (96.75%) Forward Only Surviving: 2015524 (3.20%) Reverse Only Surviving: 11382 (0.02%) Dropped: 17999 (0.03%)
+TrimmomaticPE: Completed successfully
+number of threads 16
+reads 121242980
+long reads 0
+extra reads 0
+read_length 132
+kmer 20
+kmers 87026463 88110542
+merge bubble 73467
+contigs: 133197 n50: 794 max: 14330 mean: 330 total length: 44002897 n80: 308
+aligned 91900963 reads
+confirmed bases: 27795459 correct reads: 78111371 bases: 6087645
+distance mean 146.356 sd 51.2692
+seed contigs 60201 local contigs 266394
+kmer 40
+kmers 63350384 63677002
+merge bubble 8213
+contigs: 66835 n50: 2435 max: 125297 mean: 675 total length: 45152794 n80: 432
+aligned 110262538 reads
+confirmed bases: 32307423 correct reads: 101458849 bases: 2133931
+distance mean 149.608 sd 53.6443
+seed contigs 42305 local contigs 133670
+kmer 60
+kmers 56315568 56282462
+merge bubble 2096
+contigs: 49383 n50: 3040 max: 232387 mean: 910 total length: 44977039 n80: 483
+aligned 111292976 reads
+confirmed bases: 33239380 correct reads: 102624749 bases: 236463
+distance mean 149.646 sd 53.6501
+seed contigs 40452 local contigs 98766
+kmer 80
+kmers 49990580 50011000
+merge bubble 1158
+contigs: 43637 n50: 3441 max: 232427 mean: 1026 total length: 44805506 n80: 516
+aligned 111550851 reads
+confirmed bases: 33580314 correct reads: 103018491 bases: 124773
+distance mean 149.656 sd 53.6228
+seed contigs 38328 local contigs 87274
+kmer 100
+kmers 45712704 45704397
+merge bubble 896
+contigs: 48186 n50: 3119 max: 227494 mean: 948 total length: 45687716 n80: 495
+reads 121242980
+aligned 110683786 reads
+distance mean 149.584 sd 53.5271
+expected coverage 2.81958
+edgs 486
+contigs: 47735 n50: 3232 max: 238366 mean: 955 total length: 45605472 n80: 498
+SRR1977357 complete
+
